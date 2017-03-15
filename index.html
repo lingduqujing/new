@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./css/base.css"/>
+    <link rel="stylesheet" href="./bower_components/swiper/dist/css/swiper.min.css">
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./bower_components/font-Awesome-3.2.1/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./bower_components/animate.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+
+</head>
+<body>
+
+<!-- Swiper -->
+<div class="swiper-container bigSwiper-container">
+    <!--导航条-->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="./images/logo.png">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="nav">
+                    <li class="active"><a href="#">自我介绍</a></li>
+                    <li><a href="#">专业技能</a></li>
+                    <li><a href="#">工作经历</a></li>
+                    <li><a href="#">项目经验一</a></li>
+                    <li><a href="#">项目经验二</a></li>
+                    <li><a href="#">项目经验三</a></li>
+                    <li><a href="#">项目经验四</a></li>
+                    <li><a href="#">自我评价</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 巨幕-->
+    <div class="swiper-wrapper">
+        <!-- 屏幕1-->
+        <div class="container-fluid swiper-slide slide-1">
+            <div class="row row-1">
+                <img src="./images/zhaopian.jpg" alt=""
+                     class="img-responsive hidden-sm hidden-xs  col-md-3 col-md-push-1 pic fadeInUp AddD "
+                     style="border-radius:10px "/>
+
+                <div class="hidden-md hidden-lg" id="pic2"></div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-md-push-1 introduce AddD fadeInDown ">
+
+                    <h4>吕世龙</h4>
+
+                    <p>年 龄：24岁</p>
+
+                    <p>现 居 地：聊城</p>
+
+                    <p>工 作 经 验： 2年</p>
+
+                    <p>电 话：180-5461-0620</p>
+
+                    <p>邮 箱：bslshl@163.com</p>
+
+                </div>
+            </div>
+        </div>
+        <!-- 屏幕2-->
+        <div class="container-fluid swiper-slide slide-2">
+            <div class="row">
+                <h3 class="col-md-12 text-left text-header AddD ">掌握技能熟练度：</h3>
+                <!-- 技能一-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">DIV+CSS布局：</div>
+                    <div class="col-md-7 col-xs-7 bar ">
+                        <div class="fill fill-1 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">90%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!-- 技能二-->
+                <div class="skill col-xs-12 AddD ">
+                    <div class="col-md-3 col-xs-12 text-center">H5、CSS3新特性：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-2 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">80%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!-- 技能三-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">原生JS操作BOM/DOM：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-3 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">80%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!--技能四-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">原型链、闭包：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-4"></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">70%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!--技能五-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">juqery、Zepto、Bootstrp：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-5 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">70%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!-- 技能六-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">常见浏览器兼容兼容性问题：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-6 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">70%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!--技能七-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">AJAX交互进行前后端数据传输：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-7 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">80%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!--技能八-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">HTTP：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-8 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">70%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!--技能九-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">响应式布局、流式布局、rem布局：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-9 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">60%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!-- 技能十-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">使用Sublime、HBuilder等开发工具：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-10 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">80%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!--技能十一-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">Git：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-11 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">60%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!--技能十二-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">基于HTML5的webapp开发：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-12 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">650%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!--技能十三-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">seajs、requirejs模块化开发：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-13 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">50%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!-- 技能十四-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">angularjs等前端MV*框架：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-14 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">50%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+                <!-- 技能十五-->
+                <div class="skill col-xs-12 AddD">
+                    <div class="col-md-3 col-xs-12 text-center">less：</div>
+                    <div class="col-md-7 col-xs-12 col-xs-7 bar ">
+                        <div class="fill fill-15 "></div>
+                    </div>
+                    <div class="col-md-1 col-xs-2">70%</div>
+                    <div class="col-md-1 col-xs-3 text-left">熟练</div>
+                </div>
+            </div>
+        </div>
+        <!-- 屏幕3-->
+        <div class="container-fluid swiper-slide slide-3">
+            <div class="row">
+                <h3 class="col-md-12 text-left text-header">工作经验：</h3>
+
+                <div class=" work workFir col-md-6 AddD">
+                    <i class="icon-circle"><h4>实习经验：</h4></i>
+                    <i class="icon-building"><p>实习公司：山东安合信达电子科技有限公司</p></i>
+
+                    <div class="job col-md-12" style="padding: 0;">
+                        <h5 class="icon-hand-right">担任职务：</h5>
+
+                        <p class="icon-chevron-right">1.负责文件资料的整理和日常的截图</p>
+
+                        <p class="icon-chevron-right">2.辅助前端人员，独自完成div+css的构图</p>
+
+                    </div>
+                </div>
+                <div class="work workSec col-md-6 AddD">
+                    <i class="icon-circle"><h4>工作经验：</h4></i>
+                    <i class="icon-building"><p>公司：上海秦誓网络科技有限公司</p></i>
+
+                    <div class="job col-md-12" style="padding: 0;">
+                        <h5 class="icon-hand-right">担任职务：</h5>
+
+                        <p class="icon-chevron-right">1.负责项目产品Web前端的设计与研发</p>
+
+                        <p class="icon-chevron-right">2.理解用户的需求，并能快速转化成原型；提高用户的体验度。</p>
+
+                        <p class="icon-chevron-right">3.开发和维护功能组件类库，对前端开发和组件化有自己的见解。</p>
+
+                        <p class="icon-chevron-right">4.整理形成开发文档。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 屏幕4-->
+        <div class="container-fluid swiper-slide slide-4">
+            <h3 class="col-md-12 text-left text-header">项目经验一：</h3>
+
+            <div class="row">
+                <div class="col-sm-6 project AddD">
+                    <p>项目名称：十年后（手机端）已上线</p>
+
+                    <p>开发周期：2016/06 -- 2016/11</p>
+
+                    <p>项目描述：</p>
+
+                    <p style="text-indent:4em">
+                        移动端的十年后应用是对pc端网站的拓展和补充，让每个追梦人能及时的发布自己的想法体会他人的感受，让每个追梦人相互的帮助。在“十年后”，每位用户都有一条属于自己的未来时间轴，用户可以在未来的任何一个时间点，上传自己的梦想，设定梦想实现的期限。在每一个梦想下，用户还可以记录自己的想法、添加和梦想相关的资料、制定详细实施计划等等。这是用户在「十年后」专属的梦想盒子，也是“梦想社交
+                        ”的基础。
+                    </p>
+
+                    <p>责任描述: </p>
+
+                    <p style="text-indent:4em">1、搭建部分分支页面的展示，实现基本页面展示以及与其他页面的关联。</p>
+
+                    <p style="text-indent:4em">2、数据交互，实现页面间数据传递。</p>
+
+                    <p style="text-indent:4em">1、基于HTML5页面布局，使用到H5中新的语义化标签;</p>
+
+                    <p style="text-indent:4em">2、利用CSS3实现动画;</p>
+
+                    <p style="text-indent:4em">3、利用rem实现响应式布局;</p>
+
+                    <p style="text-indent:4em">4、使用IscrollJS，用于做下拉刷新，上拉加载的效果;</p>
+
+                    <p style="text-indent:4em">5、通过Ajax获取后台数据填充渲染页面。</p>
+                </div>
+                <div class="col-sm-3 col-sm-push-1 project-pic hidden-xs AddD" style="padding: 0">
+                    <div id="carousel-example-generic-1" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic-1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic-1" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic-1" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic-1" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic-1" data-slide-to="4"></li>
+                            <li data-target="#carousel-example-generic-1" data-slide-to="5"></li>
+                            <li data-target="#carousel-example-generic-1" data-slide-to="6"></li>
+                            <li data-target="#carousel-example-generic-1" data-slide-to="7"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="./images/phone-1.png" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/phone-2.png" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/phone-3.png" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/phone-4.png" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/phone-5.png" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/phone-6.png" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/phone-7.png" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/phone-8.png" alt="...">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic-1" role="button"
+                           data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic-1" role="button"
+                           data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 屏幕5-->
+        <div class="container-fluid swiper-slide slide-5">
+            <h3 class="col-md-12 text-left text-header">项目经验二：</h3>
+
+            <div class="row">
+                <div class="col-sm-6 project AddD">
+                    <p>项目名称：新版十年后网站</p>
+
+                    <p>开发周期：2015/10-2016/03</p>
+
+                    <p>项目描述：</p>
+
+                    <p style="text-indent:4em">
+                        移动端的十年后应用是对pc端网站的拓展和补充，让每个追梦人能及时的发布自己的想法体会他人的感受，让每个追梦人相互的帮助。在“十年后”，每位用户都有一条属于自己的未来时间轴，用户可以在未来的任何一个时间点，上传自己的梦想，设定梦想实现的期限。在每一个梦想下，用户还可以记录自己的想法、添加和梦想相关的资料、制定详细实施计划等等。这是用户在「十年后」专属的梦想盒子，也是“梦想社交
+                        ”的基础。
+                    </p>
+
+                    <p>责任描述: </p>
+
+                    <p style="text-indent:4em">1、搭建部分分支页面的展示，实现基本页面展示以及与其他页面的关联。</p>
+
+                    <p style="text-indent:4em">2、数据交互，实现页面间数据传递。</p>
+
+                    <p style="text-indent:4em">1、基于HTML5页面布局，使用到H5中新的语义化标签;</p>
+
+                    <p style="text-indent:4em">2、利用CSS3实现动画;</p>
+
+                    <p style="text-indent:4em">3、利用rem实现响应式布局;</p>
+
+                    <p style="text-indent:4em">4、使用IscrollJS，用于做下拉刷新，上拉加载的效果;</p>
+
+                    <p style="text-indent:4em">5、通过Ajax获取后台数据填充渲染页面。</p>
+                </div>
+                <div class="col-sm-6 project-pic hidden-xs AddD" style="padding: 0">
+                    <div id="carousel-example-generic-2" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic-2" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic-2" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic-2" data-slide-to="4"></li>
+                            <li data-target="#carousel-example-generic-2" data-slide-to="5"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="./images/10year-1.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/10year-2.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/10year-3.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/10year-4.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/10year-5.jpg" alt="...">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic-2" role="button"
+                           data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic-2" role="button"
+                           data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 屏幕6-->
+        <div class="container-fluid swiper-slide slide-6">
+            <h3 class="col-md-12 text-left text-header">项目经验三：</h3>
+
+            <div class="row">
+                <div class="col-sm-6 project AddD">
+                    <p>项目名称：仿写angular后台系统</p>
+
+                    <p>开发周期：2015/06-2015/09</p>
+
+                    <p>项目描述：</p>
+
+                    <p style="text-indent:4em">
+                        angularjs框架后台管理模板，响应式设计，兼容PC端和手机移动端，全套模板，包括仪表盘、注册、登录、布局、按钮、表单、表格、图表、地图、博客、搜索等多个后台模板页面。
+                    </p>
+
+                    <p>责任描述: </p>
+
+                    <p style="text-indent:4em">1、此项目是为了熟悉对angular和css3动画的使用。</p>
+
+                    <p style="text-indent:4em">2、提高自己对后台的熟悉度</p>
+
+                    <p style="text-indent:4em">1、虽然只是仿写，但提高各方面知识的综合使用。</p>
+
+                    <p style="text-indent:4em">2、使用html5和css完成各项页面布局。</p>
+
+                    <p style="text-indent:4em">3、使用css3完成各个页面的特效（部分特效使用jquery完成）</p>
+
+                    <p style="text-indent:4em">4、利用修改原型链，完成响应属性和方法的添加。</p>
+                </div>
+                <div class="col-sm-6  project-pic hidden-xs AddD" style="padding: 0">
+                    <div id="carousel-example-generic-3" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic-3" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic-3" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic-3" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic-3" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic-3" data-slide-to="4"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="./images/angular-1.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/angular-2.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/angular-3.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/angular-4.jpg" alt="...">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic-3" role="button"
+                           data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic-3" role="button"
+                           data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 屏幕7-->
+        <div class="container-fluid swiper-slide slide-7">
+            <h3 class="col-md-12 text-left text-header">项目经验四：</h3>
+
+            <div class="row">
+                <div class="col-sm-6 project AddD">
+                    <p>项目名称：TimeStudio摄影工作室</p>
+
+                    <p>开发周期：2014/10-2015/01</p>
+
+                    <p>项目描述：</p>
+
+                    <p style="text-indent:4em">
+                        生活摄影，是乐时原创摄影团队主张的摄影文化风向标。坚持个性创意、艺文生活的摄影风格，坚持真情流露、简单自然的摄影创作态度，跟随顾客心意走，定制独特、与众不同的光影纪念。
+                    </p>
+
+                    <p>责任描述: </p>
+
+                    <p style="text-indent:4em">1、完成整站从设计稿向前端静态页的转换。</p>
+
+                    <p style="text-indent:4em">2、运用HTML+CSS完成前端静态页面。</p>
+
+                    <p style="text-indent:4em">1、使用jquery完成轮播图效果。</p>
+                </div>
+                <div class="col-sm-6  project-pic hidden-xs AddD" style="padding: 0">
+                    <div id="carousel-example-generic-4" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic-4" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic-4" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic-4" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic-4" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic-4" data-slide-to="4"></li>
+                            <li data-target="#carousel-example-generic-4" data-slide-to="5"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="./images/Time-1.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/Time-2.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/Time-3.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/Time-4.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="./images/Time-5.jpg" alt="...">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic-4" role="button"
+                           data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic-4" role="button"
+                           data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 屏幕8-->
+        <div class="container-fluid swiper-slide slide-8" `>
+            <h2 class="col-xs-12 text-left AddD">自我评价:</h2>
+
+            <div class="introduceMe text-center col-xs-12 AddD">
+                <h3>1.喜欢研究新技术，对于计算机的新技术有浓厚的兴趣。</h3>
+
+                <h3>2.性格开朗、乐于助人、稳定性较强。</h3>
+
+                <h3>3.逻辑思维强，善于团队沟通合作。</h3>
+
+                <h3>4.热爱编程，且有较强的学习适应能力，新知识新软件可以通过自学掌握。</h3>
+            </div>
+            <div class="callMe col-xs-12 text-center AddD" id="callMe">
+                <h2 class="text-left col-xs-12">联系我：</h2>
+                <ul style="margin-bottom: 20px">
+                    <li class="myEmail"><img src="./images/email.jpg" alt=""/></li>
+                    <li class="myQq"><img src="./images/qq.jpg" alt=""/></li>
+                    <li class="myChat"><img src="./images/chat.jpg" alt=""/></li>
+                    <li class="myGithub"><img src="./images/github.jpg" alt=""/></li>
+                </ul>
+                <p> email：bslshl@163.com </p>
+
+                <p> QQ:1479509100 </p>
+
+                <p> 微信号：a769005885 </p>
+
+                <p> github帐号：lingduqujing </p>
+            </div>
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination bigSwiper-pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+<script src="./bower_components/swiper/dist/js/swiper.min.js"></script>
+<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./bower_components/indexSlidePattern.js"></script>
+<script src="./js/index.js"></script>
+<script>
+    $(function () {
+        //基础动画
+        //屏幕一动画初始化
+        addAnimated(".slide-1 .AddD");
+        //导航栏第几屏幕自动上升(利用模拟点击事件)
+        $('#nav>li').on("click", function () {
+            var index = $(this).index() + 1;
+            console.log("屏幕" + (index + 1));
+            $('#nav>li:nth-child(' + index + ')').addClass("active").siblings().removeClass("active");
+            $('.bigSwiper-pagination .swiper-pagination-bullet:nth-child(' + index + ')').trigger("click");
+            //添加动画
+            addAnimated(".slide-" + index + " .AddD");
+
+        })
+
+        //鼠标滚轮到第几屏导航栏选中（利用鼠标滚轮事件）
+        $(window).on("mousewheel", function (e) {
+            e.preventDefault();
+            $('.bigSwiper-pagination .swiper-pagination-bullet').each(function () {
+                if ($(this).hasClass("swiper-pagination-bullet-active")) {
+                    var index = $(this).index();
+                    $('#nav>li:nth-child(' + (index + 1) + ')').addClass("active").siblings().removeClass("active");
+                    addAnimated(".slide-" + (index + 1) + " .AddD");
+                }
+            });
+        })
+        //第一屏特效
+        //开始照片宽高一致
+        resize();
+        //在屏幕宽度改变时触发
+        $(window).resize(function () {
+            resize();
+        })
+        //屏幕一 在小屏幕是 照片宽高一致 方法
+        function resize() {
+            var $picTwo = $("#pic2");
+            picTwoWidth = $picTwo.width();
+            $picTwo.css("height", picTwoWidth + "px");
+        }
+
+        // 联系方式
+        $('#callMe li').on('mouseover', function () {
+            var index = $(this).index();
+            $('#callMe p:nth-child(' + (index + 3) + ')').addClass("active").siblings().removeClass("active");
+        })
+    })
+
+    //添加动态测试
+    function addAnimated(Class) {
+        $('.swiper-slide .AddD').removeClass('animated fadeInLeft');
+        $(Class).addClass('animated fadeInLeft');
+    }
+</script>
+</body>
+</html>

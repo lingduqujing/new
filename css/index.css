@@ -1,0 +1,247 @@
+html {
+  position: relative;
+  height: 100%;
+}
+html body {
+  position: relative;
+  height: 100%;
+}
+html body .swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+html body .swiper-container nav {
+  margin-bottom: 0px;
+  background-color: #ffffff;
+}
+html body .swiper-container nav .container-fluid .navbar-header .navbar-brand img {
+  width: 50px;
+  height: 20px;
+}
+@media screen and (max-width: 970px) {
+  html body .swiper-container nav .container-fluid .navbar-brand {
+    display: none;
+  }
+}
+html body .swiper-container nav .container-fluid .collapse ul a {
+  font-family: "微软雅黑";
+}
+html body .swiper-container .slide-1 {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  background-image: url("../images/swiperSlide-1.jpg");
+  background-size: cover;
+}
+html body .swiper-container .slide-1 .row {
+  padding: 35px;
+  position: relative;
+}
+html body .swiper-container .slide-1 .row .pic {
+  height: 510px;
+  padding: 0;
+}
+html body .swiper-container .slide-1 .row #pic2 {
+  width: 18%;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url('../images/zhaopian-s.jpg');
+  background-size: cover;
+}
+@media screen and (max-width: 750px) {
+  html body .swiper-container .slide-1 .row #pic2 {
+    width: 100px;
+    border-radius: 50%;
+  }
+}
+html body .swiper-container .slide-1 .row .introduce {
+  margin: 200px 0 0 0;
+}
+html body .swiper-container .slide-2 {
+  background-image: url("../images/swiperSlide-2.jpg");
+  background-size: cover;
+  color: #ffffff;
+}
+html body .swiper-container .slide-2 .row {
+  padding: 0 20px;
+}
+html body .swiper-container .slide-2 .row .text-header {
+  margin-bottom: 5px;
+}
+html body .swiper-container .slide-2 .row .skill {
+  margin-bottom: 10px;
+  height: 25px;
+}
+html body .swiper-container .slide-2 .row .skill .bar {
+  border-radius: 10px;
+  height: 20px;
+  padding: 0px;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill {
+  height: 100%;
+  border-radius: 10px;
+  background-color: #eeeeee;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-1 {
+  width: 90%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-2 {
+  width: 80%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-3 {
+  width: 80%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-4 {
+  width: 70%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-5 {
+  width: 70%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-6 {
+  width: 70%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-7 {
+  width: 80%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-8 {
+  width: 70%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-9 {
+  width: 60%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-10 {
+  width: 80%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-11 {
+  width: 60%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-12 {
+  width: 65%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-13 {
+  width: 50%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-14 {
+  width: 50%;
+}
+html body .swiper-container .slide-2 .row .skill .bar .fill-15 {
+  width: 70%;
+}
+@media screen and (max-width: 970px) {
+  html body .swiper-container .slide-2 .row .skill .bar {
+    height: 10px;
+  }
+}
+html body .swiper-container .slide-3 {
+  background-image: url("../images/swiperSlide-3.jpg");
+  background-size: cover;
+  padding: 0 30px;
+  color: #ffffff;
+}
+html body .swiper-container .slide-3 .workFir,
+html body .swiper-container .slide-3 .workSec {
+  padding-left: 10%;
+}
+html body .swiper-container .slide-3 .workFir i,
+html body .swiper-container .slide-3 .workSec i {
+  display: block;
+}
+html body .swiper-container .slide-3 .workFir i h4,
+html body .swiper-container .slide-3 .workSec i h4,
+html body .swiper-container .slide-3 .workFir i p,
+html body .swiper-container .slide-3 .workSec i p {
+  display: inline-block;
+  margin-left: 10px;
+}
+html body .swiper-container .slide-3 .workFir .job p,
+html body .swiper-container .slide-3 .workSec .job p {
+  display: block;
+  margin-left: 10%;
+}
+@media screen and (max-width: 970px) {
+  html body .swiper-container .slide-3 .work {
+    margin-bottom: 20px;
+  }
+}
+html body .swiper-container .slide-4 {
+  background-image: url("../images/swiperSlide-4.jpg");
+  background-size: cover;
+  padding: 0 40px;
+  color: #ffffff;
+}
+html body .swiper-container .slide-4 .project-pic img {
+  width: 290px;
+  height: 500px;
+  margin: 0 auto;
+}
+html body .swiper-container .slide-5 {
+  background-image: url("../images/swiperSlide-5.jpg");
+  background-size: cover;
+  padding: 0 40px;
+  color: #ffffff;
+}
+html body .swiper-container .slide-5 .project-pic img {
+  width: 100%;
+  height: 500px;
+}
+html body .swiper-container .slide-6 {
+  background-image: url("../images/swiperSlide-9.jpg");
+  background-size: cover;
+  padding: 0 40px;
+  color: #ffffff;
+}
+html body .swiper-container .slide-6 .project-pic img {
+  width: 100%;
+  height: 500px;
+}
+html body .swiper-container .slide-7 {
+  background-image: url("../images/swiperSlide-7.jpg");
+  background-size: cover;
+  padding: 0 40px;
+  color: #ffffff;
+}
+html body .swiper-container .slide-7 .project-pic img {
+  width: 100%;
+  height: 500px;
+}
+html body .swiper-container .slide-8 {
+  background-image: url("../images/swiperSlide-8.jpg");
+  background-size: cover;
+  padding: 0 40px;
+  color: #ffffff;
+}
+html body .swiper-container .slide-8 .callMe {
+  margin: 5px auto;
+}
+html body .swiper-container .slide-8 .callMe ul li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+html body .swiper-container .slide-8 .callMe ul li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 750px) {
+  html body .swiper-container .slide-8 .callMe ul li {
+    margin-right: 10px;
+  }
+}
+html body .swiper-container .slide-8 .callMe ul ul > .myEmail:hover + .showEmail {
+  display: inline;
+}
+html body .swiper-container .slide-8 .callMe p {
+  font-size: 20px;
+  display: none;
+}
+html body .swiper-container .slide-8 .callMe .active {
+  display: inline;
+}
+html body .swiper-pagination-bullet {
+  background-color: #eeeeee;
+}

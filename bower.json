@@ -1,0 +1,25 @@
+{
+  "name": "ownwebsite",
+  "description": "",
+  "main": "",
+  "keywords": [
+    "ownwebsite"
+  ],
+  "authors": [
+    "lingduqujing"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "swiper": "^3.4.1",
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}
